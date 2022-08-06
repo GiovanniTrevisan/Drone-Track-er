@@ -9,11 +9,6 @@
     <div class="row">
         <div class="col-sm-6">
             <h4 class="form-label">Drone Information</h4>
-            @*<div class="form-group">
-                    <label for="exampleInputEmail1">Email address</label>
-                    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
-                    <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
-                </div>*@
             <div class="form-group mb-3">
                 <label>Drone Number</label>
                 <input type="text" class="form-control" id="drone-id" placeholder="Enter Drone Number" aria-label="Drone number">
@@ -32,9 +27,9 @@
         <div class="col-sm-6">
             <h4 class="form-label">Tracking</h4>
             <div class="form-group mb-3">
-                <label>Temperature</label>
+                <label>Temperature (Cº)</label>
                 <input type="text" class="form-control" id="temperature" placeholder="ex. 25.4" aria-label="Temperature">
-                <small class="form-text text-muted">Celsius Temperature (Cº)</small>
+                @*<small class="form-text text-muted">Celsius Temperature (Cº)</small>*@
             </div>
             <div class="form-group mb-3">
                 <label>Humidity</label>
@@ -42,8 +37,7 @@
                 <small class="form-text text-muted">Humidity in Percentage (%)</small>
             </div>
 
-            <div class="input-group mb-3">
-
+            <div class="input-group pt-sm-2">
                 <div class="form-check form-switch pt-1">
                     <input class="form-check-input" type="checkbox" id="flexSwitchCheckChecked" checked>
                     <label class="form-check-label" id="tracking" for="flexSwitchCheckChecked">Active Tracking</label>

@@ -11,13 +11,12 @@
 <body>
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
         <div class="container">
-            <a class="navbar-brand" href="#">Drone Track·er</a>
+            @Html.ActionLink("Drone Track·er", "Index", "Home", new { area = "" }, new { @class = "navbar-brand" })
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
                 <div class="navbar-nav">
-                    @Html.ActionLink("Home", "Index", "Home", new { area = "" }, new { @class = "nav-link" })
                     @Html.ActionLink("More Info", "Info", "Home", new { area = "" }, new { @class = "nav-link" })
                 </div>
             </div>
